@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D829512AEA50354E4EFBE59 /* Pods_tymexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE60AE99E5E27D1DDB4CEC32 /* Pods_tymexTests.framework */; };
+		B947BD90D8DCBE433A331681 /* Pods_tymex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E4C590AE5FA058BA33A9AE /* Pods_tymex.framework */; };
+		FB1E1CB973ED0B6A6B244F50 /* Pods_tymex_tymexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1DB63A42F171EBA8C56F82 /* Pods_tymex_tymexUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408AB2EB2D72275200F68B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408AB2D12D72275000F68B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408AB2D82D72275000F68B57;
+			remoteInfo = tymex;
+		};
+		408AB2F52D72275200F68B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408AB2D12D72275000F68B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408AB2D82D72275000F68B57;
+			remoteInfo = tymex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8D9FF139FDFA5BA086A27D /* Pods-tymex-tymexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tymex-tymexUITests.debug.xcconfig"; path = "Target Support Files/Pods-tymex-tymexUITests/Pods-tymex-tymexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		408AB2D92D72275000F68B57 /* tymex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tymex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408AB2EA2D72275200F68B57 /* tymexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tymexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408AB2F42D72275200F68B57 /* tymexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tymexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CE7D2D5CF16A68358AD482 /* Pods-tymex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tymex.release.xcconfig"; path = "Target Support Files/Pods-tymex/Pods-tymex.release.xcconfig"; sourceTree = "<group>"; };
+		805623032E65B38C2CCDCBE4 /* Pods-tymex-tymexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tymex-tymexUITests.release.xcconfig"; path = "Target Support Files/Pods-tymex-tymexUITests/Pods-tymex-tymexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87EA87988F2B2A8283B67010 /* Pods-tymex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tymex.debug.xcconfig"; path = "Target Support Files/Pods-tymex/Pods-tymex.debug.xcconfig"; sourceTree = "<group>"; };
+		B8209DD5A1E3A830059E2F26 /* Pods-tymexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tymexTests.debug.xcconfig"; path = "Target Support Files/Pods-tymexTests/Pods-tymexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC5BDC2B42820133D3CFD7D6 /* Pods-tymexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tymexTests.release.xcconfig"; path = "Target Support Files/Pods-tymexTests/Pods-tymexTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE60AE99E5E27D1DDB4CEC32 /* Pods_tymexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tymexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1DB63A42F171EBA8C56F82 /* Pods_tymex_tymexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tymex_tymexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E4C590AE5FA058BA33A9AE /* Pods_tymex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tymex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		408AB2DB2D72275000F68B57 /* tymex */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tymex;
+			sourceTree = "<group>";
+		};
+		408AB2ED2D72275200F68B57 /* tymexTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tymexTests;
+			sourceTree = "<group>";
+		};
+		408AB2F72D72275200F68B57 /* tymexUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = tymexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408AB2D62D72275000F68B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B947BD90D8DCBE433A331681 /* Pods_tymex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408AB2E72D72275200F68B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D829512AEA50354E4EFBE59 /* Pods_tymexTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408AB2F12D72275200F68B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1E1CB973ED0B6A6B244F50 /* Pods_tymex_tymexUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB03750BACEA8C1A30CA7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E4C590AE5FA058BA33A9AE /* Pods_tymex.framework */,
+				CF1DB63A42F171EBA8C56F82 /* Pods_tymex_tymexUITests.framework */,
+				CE60AE99E5E27D1DDB4CEC32 /* Pods_tymexTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		408AB2D02D72275000F68B57 = {
+			isa = PBXGroup;
+			children = (
+				408AB2DB2D72275000F68B57 /* tymex */,
+				408AB2ED2D72275200F68B57 /* tymexTests */,
+				408AB2F72D72275200F68B57 /* tymexUITests */,
+				408AB2DA2D72275000F68B57 /* Products */,
+				4FE0E65FED3FE7AB36308EB6 /* Pods */,
+				2AB03750BACEA8C1A30CA7F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		408AB2DA2D72275000F68B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408AB2D92D72275000F68B57 /* tymex.app */,
+				408AB2EA2D72275200F68B57 /* tymexTests.xctest */,
+				408AB2F42D72275200F68B57 /* tymexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FE0E65FED3FE7AB36308EB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87EA87988F2B2A8283B67010 /* Pods-tymex.debug.xcconfig */,
+				75CE7D2D5CF16A68358AD482 /* Pods-tymex.release.xcconfig */,
+				2B8D9FF139FDFA5BA086A27D /* Pods-tymex-tymexUITests.debug.xcconfig */,
+				805623032E65B38C2CCDCBE4 /* Pods-tymex-tymexUITests.release.xcconfig */,
+				B8209DD5A1E3A830059E2F26 /* Pods-tymexTests.debug.xcconfig */,
+				CC5BDC2B42820133D3CFD7D6 /* Pods-tymexTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408AB2D82D72275000F68B57 /* tymex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408AB2FE2D72275200F68B57 /* Build configuration list for PBXNativeTarget "tymex" */;
+			buildPhases = (
+				F98846677F0EDE27654FB0AF /* [CP] Check Pods Manifest.lock */,
+				408AB2D52D72275000F68B57 /* Sources */,
+				408AB2D62D72275000F68B57 /* Frameworks */,
+				408AB2D72D72275000F68B57 /* Resources */,
+				9AFE0C15C8954CC86CD249F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				408AB2DB2D72275000F68B57 /* tymex */,
+			);
+			name = tymex;
+			productName = tymex;
+			productReference = 408AB2D92D72275000F68B57 /* tymex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408AB2E92D72275200F68B57 /* tymexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408AB3012D72275200F68B57 /* Build configuration list for PBXNativeTarget "tymexTests" */;
+			buildPhases = (
+				4ADDB008CCC1DF2489135407 /* [CP] Check Pods Manifest.lock */,
+				408AB2E62D72275200F68B57 /* Sources */,
+				408AB2E72D72275200F68B57 /* Frameworks */,
+				408AB2E82D72275200F68B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408AB2EC2D72275200F68B57 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				408AB2ED2D72275200F68B57 /* tymexTests */,
+			);
+			name = tymexTests;
+			productName = tymexTests;
+			productReference = 408AB2EA2D72275200F68B57 /* tymexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		408AB2F32D72275200F68B57 /* tymexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408AB3042D72275200F68B57 /* Build configuration list for PBXNativeTarget "tymexUITests" */;
+			buildPhases = (
+				C32B8827B5686E3840F3567B /* [CP] Check Pods Manifest.lock */,
+				408AB2F02D72275200F68B57 /* Sources */,
+				408AB2F12D72275200F68B57 /* Frameworks */,
+				408AB2F22D72275200F68B57 /* Resources */,
+				796A88B12B6D8FD5FB49AE1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408AB2F62D72275200F68B57 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				408AB2F72D72275200F68B57 /* tymexUITests */,
+			);
+			name = tymexUITests;
+			productName = tymexUITests;
+			productReference = 408AB2F42D72275200F68B57 /* tymexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408AB2D12D72275000F68B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					408AB2D82D72275000F68B57 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					408AB2E92D72275200F68B57 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 408AB2D82D72275000F68B57;
+					};
+					408AB2F32D72275200F68B57 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 408AB2D82D72275000F68B57;
+					};
+				};
+			};
+			buildConfigurationList = 408AB2D42D72275000F68B57 /* Build configuration list for PBXProject "tymex" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408AB2D02D72275000F68B57;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 408AB2DA2D72275000F68B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408AB2D82D72275000F68B57 /* tymex */,
+				408AB2E92D72275200F68B57 /* tymexTests */,
+				408AB2F32D72275200F68B57 /* tymexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408AB2D72D72275000F68B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408AB2E82D72275200F68B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408AB2F22D72275200F68B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ADDB008CCC1DF2489135407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tymexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		796A88B12B6D8FD5FB49AE1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tymex-tymexUITests/Pods-tymex-tymexUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tymex-tymexUITests/Pods-tymex-tymexUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tymex-tymexUITests/Pods-tymex-tymexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFE0C15C8954CC86CD249F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tymex/Pods-tymex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tymex/Pods-tymex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tymex/Pods-tymex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32B8827B5686E3840F3567B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tymex-tymexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98846677F0EDE27654FB0AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tymex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408AB2D52D72275000F68B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408AB2E62D72275200F68B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408AB2F02D72275200F68B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408AB2EC2D72275200F68B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408AB2D82D72275000F68B57 /* tymex */;
+			targetProxy = 408AB2EB2D72275200F68B57 /* PBXContainerItemProxy */;
+		};
+		408AB2F62D72275200F68B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408AB2D82D72275000F68B57 /* tymex */;
+			targetProxy = 408AB2F52D72275200F68B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		408AB2FC2D72275200F68B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408AB2FD2D72275200F68B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		408AB2FF2D72275200F68B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EA87988F2B2A8283B67010 /* Pods-tymex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tymex/tymex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tymex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trangnguyen.tymex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		408AB3002D72275200F68B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CE7D2D5CF16A68358AD482 /* Pods-tymex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tymex/tymex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tymex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trangnguyen.tymex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		408AB3022D72275200F68B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8209DD5A1E3A830059E2F26 /* Pods-tymexTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trangnguyen.tymexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tymex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tymex";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		408AB3032D72275200F68B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5BDC2B42820133D3CFD7D6 /* Pods-tymexTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trangnguyen.tymexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tymex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tymex";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		408AB3052D72275200F68B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8D9FF139FDFA5BA086A27D /* Pods-tymex-tymexUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trangnguyen.tymexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = tymex;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		408AB3062D72275200F68B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805623032E65B38C2CCDCBE4 /* Pods-tymex-tymexUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trangnguyen.tymexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = tymex;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408AB2D42D72275000F68B57 /* Build configuration list for PBXProject "tymex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408AB2FC2D72275200F68B57 /* Debug */,
+				408AB2FD2D72275200F68B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408AB2FE2D72275200F68B57 /* Build configuration list for PBXNativeTarget "tymex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408AB2FF2D72275200F68B57 /* Debug */,
+				408AB3002D72275200F68B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408AB3012D72275200F68B57 /* Build configuration list for PBXNativeTarget "tymexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408AB3022D72275200F68B57 /* Debug */,
+				408AB3032D72275200F68B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408AB3042D72275200F68B57 /* Build configuration list for PBXNativeTarget "tymexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408AB3052D72275200F68B57 /* Debug */,
+				408AB3062D72275200F68B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408AB2D12D72275000F68B57 /* Project object */;
+}
