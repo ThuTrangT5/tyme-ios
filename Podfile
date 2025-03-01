@@ -3,9 +3,8 @@ platform :ios, '17.0'
   project 'tymex.xcodeproj'
 
 def shared_pods
-  #pod 'SwiftyJSON'
+  pod 'SwiftyJSON'
   pod 'Alamofire'
-#  pod 'Alamofire-SwiftyJSON'
 end
 
 target 'tymex' do

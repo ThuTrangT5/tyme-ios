@@ -6,3 +6,38 @@
 //
 
 import Foundation
+
+import SwiftyJSON
+
+class User: BaseModel, Codable, Identifiable  {
+    var id: Int = 0
+    var login: String
+    var avatar: String?
+    var landingPage: String?
+    
+    var location: String?
+    var followers: Int = 0
+    var following: Int = 0
+    var bio: String?
+    var blog: String?
+    
+    required init(json: JSON) {
+        
+        id = json["id"].intValue
+        login = json["login"].stringValue
+        avatar = json["avatar_url"].string
+        landingPage = json["html_url"].string
+        
+        followers = json["followers"].intValue
+        following = json["following"].intValue
+        location = json["location"].string
+        bio = json["bio"].string
+        blog = json["blog"].string
+        
+        super.init()
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
