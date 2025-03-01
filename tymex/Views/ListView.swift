@@ -14,19 +14,26 @@ struct ListView: View {
         UserItemView(user: user)
     }
     
+    var loadMoreItem: some View {
+        Button("Click her to Load more") {
+            viewModel.getMoreData()
+        }
+        .padding()
+    }
+    
     var mainView: some View {
         List {
             ForEach(viewModel.users) { item in
-                NavigationLink {
-                    DetailsView(loginName: item.login)
-                } label: {
-                    itemView(user: item)
-                        
-                }
-                .listRowSeparator(.hidden)
+                itemView(user: item)
+                    .background(
+                        NavigationLink("", destination: DetailsView(loginName: item.login))
+                            .opacity(0)
+                    )
+                    .listRowSeparator(.hidden)
             }
             if (viewModel.isLoadAll == false) {
-                
+                loadMoreItem
+                    .listRowSeparator(.hidden)
             }
         }
         .listStyle(.plain)
@@ -38,6 +45,9 @@ struct ListView: View {
                 mainView
                     .modifier(LoadingState(viewModel: viewModel))
                     .navigationTitle("Gitlab Users")
+                    .refreshable {
+                        viewModel.reloadData()
+                    }
             }
         }
     }

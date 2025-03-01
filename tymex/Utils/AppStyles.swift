@@ -11,6 +11,7 @@ import SwiftUI
 class AppStyles {
     static let labelStyle = LabeldStyle()
     static let titleStyle = LabeldStyle(fontWeight: .bold, font: AppFonts.textBold)
+    static let descStyle = LabeldStyle(fontWeight: .light, font: AppFonts.descFont)
 }
 
 struct LabeldStyle: ViewModifier {

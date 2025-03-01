@@ -21,6 +21,7 @@ class ListViewModel : BaseViewModel {
     }
     
     func reloadData(onSuccess: ((Bool)->Void)? = nil) {
+        users.removeAll()
         _getData(onSuccess: onSuccess)
     }
     

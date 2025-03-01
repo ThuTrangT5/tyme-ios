@@ -29,11 +29,13 @@ struct DetailsView: View {
     
     var name: some View {
         HStack {
-            Text(viewModel.userName)
-                .modifier(AppStyles.titleStyle)
-            if (viewModel.user?.login ?? "").isEmpty == false {
-                Text("(" + (viewModel.user?.login ?? "") + ")")
-                    .modifier(AppStyles.labelStyle)
+            VStack(spacing: 0) {
+                Text(viewModel.userName)
+                    .modifier(AppStyles.titleStyle)
+                if (viewModel.user?.login ?? "").isEmpty == false {
+                    Text("(" + (viewModel.user?.login ?? "") + ")")
+                        .modifier(AppStyles.labelStyle)
+                }
             }
             Spacer()
         }

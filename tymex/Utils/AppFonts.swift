@@ -12,5 +12,5 @@ class AppFonts {
     private static let _fontFamily = "Open Sans"
     static let textFont = Font.custom(_fontFamily, size: 16)
     static let textBold =  Font.custom(_fontFamily, size: 20)
-    static let textHeading =  Font.custom(_fontFamily, size: 22)
+    static let descFont =  Font.custom(_fontFamily, size: 12)
 }
