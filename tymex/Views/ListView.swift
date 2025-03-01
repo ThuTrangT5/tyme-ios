@@ -17,8 +17,13 @@ struct ListView: View {
     var mainView: some View {
         List {
             ForEach(viewModel.users) { item in
-                itemView(user: item)
-                    .listRowSeparator(.hidden)
+                NavigationLink {
+                    DetailsView(loginName: item.login)
+                } label: {
+                    itemView(user: item)
+                        
+                }
+                .listRowSeparator(.hidden)
             }
             if (viewModel.isLoadAll == false) {
                 
@@ -33,7 +38,6 @@ struct ListView: View {
                 mainView
                     .modifier(LoadingState(viewModel: viewModel))
                     .navigationTitle("Gitlab Users")
-                
             }
         }
     }

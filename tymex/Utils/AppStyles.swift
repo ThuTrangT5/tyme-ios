@@ -10,6 +10,7 @@ import SwiftUI
 
 class AppStyles {
     static let labelStyle = LabeldStyle()
+    static let titleStyle = LabeldStyle(fontWeight: .bold, font: AppFonts.textBold)
 }
 
 struct LabeldStyle: ViewModifier {

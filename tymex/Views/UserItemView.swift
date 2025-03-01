@@ -19,6 +19,10 @@ struct UserItemView: View {
         user?.landingPage != nil && user?.landingPage?.isEmpty == false
     }
     
+    private var _userName: String {
+        (user?.name ?? user?.login) ?? ""
+    }
+    
     var avatar: some View {
         AsyncImage(url: URL(string: user?.avatar ?? "")) { image in
             image.resizable()
@@ -31,7 +35,7 @@ struct UserItemView: View {
     
     var name: some View {
         HStack {
-            Text(user?.login ?? "")
+            Text(_userName)
                 .modifier(AppStyles.labelStyle)
             
             Spacer()

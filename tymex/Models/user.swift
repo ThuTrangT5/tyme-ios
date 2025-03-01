@@ -12,6 +12,7 @@ import SwiftyJSON
 class User: BaseModel, Codable, Identifiable  {
     var id: Int = 0
     var login: String
+    var name: String?
     var avatar: String?
     var landingPage: String?
     
@@ -20,11 +21,14 @@ class User: BaseModel, Codable, Identifiable  {
     var following: Int = 0
     var bio: String?
     var blog: String?
+    var company: String?
+    var email: String?
     
     required init(json: JSON) {
         
         id = json["id"].intValue
         login = json["login"].stringValue
+        name = json["name"].string 
         avatar = json["avatar_url"].string
         landingPage = json["html_url"].string
         
@@ -33,6 +37,9 @@ class User: BaseModel, Codable, Identifiable  {
         location = json["location"].string
         bio = json["bio"].string
         blog = json["blog"].string
+        
+        company = json["company"].string
+        email = json["email"].string
         
         super.init()
     }
