@@ -12,7 +12,7 @@ class ListViewModel : BaseViewModel {
     @Published var currentPage = 1
     @Published var selectedUser: User?
     
-    private var _limitPerPage = 20
+    var _limitPerPage = 20
     @Published var isLoadAll: Bool = false
     
     override init() {

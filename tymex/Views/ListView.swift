@@ -15,8 +15,12 @@ struct ListView: View {
     }
     
     var loadMoreItem: some View {
-        Button("Click her to Load more") {
-            viewModel.getMoreData()
+        HStack {
+            Spacer()
+            Button("Click here to Load more") {
+                viewModel.getMoreData()
+            }
+            Spacer()
         }
         .padding()
     }
