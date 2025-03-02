@@ -23,3 +23,7 @@ wanna use to develop this exercise.
 - Remember to compress the project with source code only (excluding generated build, outputs...).
 
 ❖ Timeline: 1 week
+
+❖ How the app works
+- ![sample2](https://github.com/user-attachments/assets/312d6d36-9d3b-40f3-9f81-bd31283bfe4b)
+
